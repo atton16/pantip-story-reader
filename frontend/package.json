@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Attawit Kittikrairit",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
