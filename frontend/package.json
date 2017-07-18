@@ -1,0 +1,13 @@
+{
+  "name": "pantip-story-reader-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Attawit Kittikrairit",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-minifier": "^0.2.2"
+  },
+  "private": true
+}

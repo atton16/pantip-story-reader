@@ -1,0 +1,92 @@
+.resultbox,
+.errorbox {
+	display: none;
+}
+
+.errorbox {
+	color: red;
+}
+
+.loading {
+	font-size: 24px;
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.author-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.author-info > div:first-child {
+	padding-right: 1em;
+}
+
+.author-info > div,
+.story,
+.comments {
+	text-align: left;
+}
+
+.comment {
+	padding-top: 2em;
+}
+
+.comment-divider {
+	height: 1px;
+	width: 100%;
+	border: 1px solid #eee;
+}
+
+.comment-head {
+	padding-top: 2em;
+
+	text-align: center;
+}
+
+.toolbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.toolbox > button {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.smaller {
+	font-size: 1em;
+}
+
+.bigger {
+	font-size: 1.5em;
+}
+
+.pantip-mode,
+.pantip-mode:hover,
+.pantip-mode:active,
+.pantip-mode:focus {
+	background-color: #113364 !important;
+	color: white !important;
+}
+
+.light-mode,
+.light-mode:hover,
+.light-mode:active,
+.light-mode:focus {
+	display: none;
+	background-color: #F9F1E4 !important;
+	color: #52321E !important;
+}
+
+body {
+	background-color: #F9F1E4;
+	color: #52321E;
+}

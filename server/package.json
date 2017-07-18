@@ -1,0 +1,13 @@
+{
+  "name": "pantip-story-reader-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Attawit Kittikrairit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  },
+  "private": true
+}
