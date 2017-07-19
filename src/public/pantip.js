@@ -30,7 +30,8 @@ var $pantip = {
     if (__DATAENV === 'prod') {
       url = location.protocol + '//' + location.hostname + '/pantip-story-reader/story/' + topicId;
     } else if (__DATAENV === 'dev') {
-      url = 'https://pantip.com/topic/' + topicId + '/story';
+      url = 'http://localhost:3010/story/' + topicId;
+      // url = 'https://pantip.com/topic/' + topicId + '/story';
     }
     // var url = 'http://13.229.61.182/story/' + topicId;
     // var url = 'https://us-central1-pantip-story-reader-76bfe.cloudfunctions.net/story?id=' + topicId;
@@ -56,7 +57,8 @@ var $pantip = {
     if (__DATAENV === 'prod') {
       url = location.protocol + '//' + location.hostname + '/pantip-story-reader/comments/' + topicId;
     } else if (__DATAENV === 'dev') {
-      url = 'https://pantip.com/forum/topic_mode/render_comments?tid=' + topicId;
+      url = 'http://localhost:3010/comments/' + topicId;
+      // url = 'https://pantip.com/forum/topic_mode/render_comments?tid=' + topicId;
     }
     // var url = 'http://13.229.61.182/comments/' + topicId;
     // var url = 'https://us-central1-pantip-story-reader-76bfe.cloudfunctions.net/comments?id=' + topicId;

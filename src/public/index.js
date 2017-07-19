@@ -156,14 +156,14 @@ var UI = {
     $('a').css('color', '');
   },
   smaller: function() {
-    UI['font-size'] -= 2;
+    UI['font-size'] -= 4;
     if(UI['font-size'] < 14) {
       UI['font-size'] = 14;
     }
     $('#wholestory').css('font-size', UI['font-size']);
   },
   bigger: function() {
-    UI['font-size'] += 2;
+    UI['font-size'] += 4;
     if(UI['font-size'] > 48) {
       UI['font-size'] = 48;
     }
