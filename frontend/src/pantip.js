@@ -49,7 +49,7 @@ var $pantip = {
         type: 'get',
         success: cb
       });
-    
+    }
   },
   retrieveComments: function(topicId, cb){
     var url = '';
@@ -76,7 +76,6 @@ var $pantip = {
         success: cb
       });
     }
-    
 
   },
   extractPost: function(topicId, cb){
