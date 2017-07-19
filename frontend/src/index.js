@@ -134,7 +134,7 @@ var UI = {
     spinner.$.hide();
     resulterror.$.hide();
     resultcontent.$.show();
-    window.history.pushState("", "", '/pantip-story-reader/?s='+topicId);
+    window.history.pushState("", "", '?s='+topicId);
   },
   failed: function() {
     spinner.$.hide();
