@@ -86,7 +86,7 @@ var resultcontent = {
   $: $('div#resultbox div#resultcontent')
 };
 var title = {
-  $: $('div#resultbox div#title')
+  $: $('div#resultbox h4#title')
 };
 var author = {
   $: $('div#resultbox div#author')

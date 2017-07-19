@@ -27,8 +27,8 @@ var $pantip = {
     // Actual retrieve
     // var url = 'https://pantip.com/topic/' + topicId + '/story';
     // var url = 'http://13.229.61.182/story/' + topicId;
-    var url = location.protocol + '//' + location.hostname + '/pantip-story-reader/story/' + topicId;
     // var url = 'https://us-central1-pantip-story-reader-76bfe.cloudfunctions.net/story?id=' + topicId;
+    var url = location.protocol + '//' + location.hostname + '/pantip-story-reader/story/' + topicId;
     $.ajax({
       url: url,
       type: 'get',
@@ -47,8 +47,8 @@ var $pantip = {
     // Actual retrieve
     // var url = 'https://pantip.com/forum/topic_mode/render_comments?tid=' + topicId;
     // var url = 'http://13.229.61.182/comments/' + topicId;
-    var url = location.protocol + '//' + location.hostname + '/pantip-story-reader/comments/' + topicId;
     // var url = 'https://us-central1-pantip-story-reader-76bfe.cloudfunctions.net/comments?id=' + topicId;
+    var url = location.protocol + '//' + location.hostname + '/pantip-story-reader/comments/' + topicId;
     $.ajax({
       url: url,
       type: 'get',
