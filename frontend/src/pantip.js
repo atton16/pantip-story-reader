@@ -1,4 +1,4 @@
-var __DATAENV = 'prod'; // prod, dev, mock
+var __DATAENV = 'dev'; // prod, dev, mock
 
 function extractPost(topicId, $data) {
   var post = {

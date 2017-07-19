@@ -7,7 +7,9 @@
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
-    "gulp-minifier": "^0.2.2"
+    "gulp-filter": "^5.0.0",
+    "gulp-minifier": "^0.2.2",
+    "gulp-replace": "^0.6.1"
   },
   "private": true
 }
