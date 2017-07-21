@@ -28,7 +28,7 @@ var $pantip = {
   retrievePost: function(topicId, cb){
     var url = '';
     if (__DATAENV === 'prod') {
-      url = location.protocol + '//' + location.hostname + '/pantip-story-reader/story/' + topicId;
+      url = location.protocol + '//' + location.hostname + '/story/' + topicId;
     } else if (__DATAENV === 'dev') {
       url = 'http://localhost:3010/story/' + topicId;
       // url = 'https://pantip.com/topic/' + topicId + '/story';
@@ -55,7 +55,7 @@ var $pantip = {
   retrieveComments: function(topicId, cb){
     var url = '';
     if (__DATAENV === 'prod') {
-      url = location.protocol + '//' + location.hostname + '/pantip-story-reader/comments/' + topicId;
+      url = location.protocol + '//' + location.hostname + '/comments/' + topicId;
     } else if (__DATAENV === 'dev') {
       url = 'http://localhost:3010/comments/' + topicId;
       // url = 'https://pantip.com/forum/topic_mode/render_comments?tid=' + topicId;
